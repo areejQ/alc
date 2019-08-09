@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="fill_parent"
+    android:background="#FFF"
+    android:orientation="vertical"
+    android:layout_height="fill_parent">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="3dp"
+        android:layout_marginTop="1dp"
+        android:isScrollContainer="false"></ScrollView>
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="22dp"
+        android:fontFamily="@font/shahdbold"
+        android:text="ادخال موظف جديد"
+        android:textAlignment="center"
+        android:textSize="22dp" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView2"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:ems="10"
+        android:background="@drawable/input2"
+        android:fontFamily="@font/dubailight"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:textDirection="rtl"
+        android:textAlignment="center"
+        android:inputType="textPersonName"
+        android:hint="الاسم" />
+
+    <EditText
+        android:id="@+id/editText4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText3"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:ems="10"
+        android:background="@drawable/input2"
+        android:fontFamily="@font/dubailight"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:hint="رقم هاتف"
+        android:layout_marginStart="20dp"
+        android:textDirection="rtl"
+        android:textAlignment="center"
+        android:inputType="phone" />
+
+    <EditText
+        android:id="@+id/editText5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText4"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:ems="10"
+        android:background="@drawable/input2"
+        android:fontFamily="@font/dubailight"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginStart="20dp"
+        android:textDirection="rtl"
+        android:textAlignment="center"
+        android:hint="رقم هاتف ثاني"
+        android:inputType="phone" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="wrap_content"
+        android:layout_height="39dp"
+        android:layout_below="@+id/editText5"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:fontFamily="@font/dubailight"
+        android:hint="المجموعة"
+        android:textAlignment="center"
+        android:textDirection="rtl" />
+
+
+    <EditText
+        android:id="@+id/editText6"
+        android:layout_width="wrap_content"
+        android:layout_height="94dp"
+        android:layout_below="@+id/spinner"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="18dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/input2"
+        android:ems="10"
+        android:fontFamily="@font/dubailight"
+        android:gravity="start|top"
+        android:hint="ملاحظات"
+        android:inputType="textMultiLine"
+        android:textAlignment="center"
+        android:textColor="#313131"
+        android:textDirection="rtl" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editText6"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="20dp"
+        android:background="@drawable/color1"
+        android:fontFamily="@font/shahdbold"
+        android:text="ادخال"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textDirection="rtl" />
+
+</RelativeLayout>

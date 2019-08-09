@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:id="@+id/grp1">
+<item android:id="@+id/nav_main" android:title="الصفحة الرئيسية " />
+       </group>
+    <group android:id="@+id/grp2">
+    <item android:id="@+id/nav_worker" android:title="الموظفين " />
+    <item android:id="@+id/nav_attendance" android:title="حضور الموظفين " />
+    <item android:id="@+id/nav_addattendance" android:title=" اضافة حضور الموظفين " />
+    <item android:id="@+id/nav_addworker" android:title="اضافة موظف  " />
+    </group>
+    <group android:id="@+id/grp3">
+    <item android:id="@+id/nav_groups" android:title="المجموعات  " />
+    <item android:id="@+id/nav_addgroup" android:title="اضافة مجموعة  " />
+    <item android:id="@+id/nav_project" android:title=" المشاريع " />
+    <item android:id="@+id/nav_addproject" android:title="اضافة مشروع   " />
+    </group>
+    <group android:id="@+id/grp4">
+    <item android:id="@+id/nav_build" android:title="الابنية  " />
+    <item android:id="@+id/nav_addbuild" android:title="اضافة بناية  " />
+    <item android:id="@+id/nav_tools" android:title="الاداوات  " />
+    <item android:id="@+id/nav_addtool" android:title="اضافة اداة  " />
+    </group>
+    <group android:id="@+id/grp5">
+    <item android:id="@+id/nav_company" android:title="الشركات  " />
+    <item android:id="@+id/nav_addcompany" android:title="اضافة شركة  " />
+    <item android:id="@+id/nav_addcustody" android:title="اضافة عهدة" />
+    <item android:id="@+id/nav_custodies" android:title="العهد  " />
+    </group>
+    <group android:id="@+id/grp6">
+    <item android:id="@+id/nav_addmstor" android:title="اضافة متجر" />
+    <item android:id="@+id/nav_mstors" android:title="متاجر المواد  " />
+    <item android:id="@+id/nav_addmaterial" android:title="اضافة مواد " />
+    <item android:id="@+id/nav_materials" android:title="المواد  " />
+    </group>
+</menu>
